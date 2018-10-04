@@ -1,0 +1,13 @@
+<library>
+  <extends>modm:board:disco-f429zi</extends>
+  <options>
+    <option name=":build:build.path">../../../build/stm32f429_discovery/blink</option>
+  </options>
+  <modules>
+    <module>:platform:gpio</module>
+    <module>:platform:uart:2</module>
+    <module>:build:scons</module>
+    <module>:build:cmake</module>
+    <module>:debug</module>
+  </modules>
+</library>
